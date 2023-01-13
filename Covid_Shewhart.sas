@@ -37,7 +37,3 @@ nolegend*/
 odstitle = title;
 run;
 
-proc shewhart data=covid_newcases;
-where location= 'Afghanistan' ;
-boxchart new_cases*date;
-run;
