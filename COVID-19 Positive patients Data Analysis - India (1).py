@@ -1,19 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# # COVID-19 Positive Patients Data Analysis - India
-
-# # COVID-19 Positive Patients Data Analysis - India
-
-# # Source of Data
-# # https://www.covid19india.org/
-#     
-# 
-
-# # About the Data:
-# 
-# 
-# # Data is collected based on the details from each State Press release, official government links and reputable news channel as source. Data is validated by group of volunteers and pushed into the website.
 
 # In[1]:
 
@@ -280,9 +265,7 @@ Patients_with_valid_Age_0_20 = Patients_with_valid_Age[
     (Patients_with_valid_Age['Age Bracket']>=0) & (Patients_with_valid_Age['Age Bracket']<20)]
 
 
-# # Conclusion Part 2 - Myth Busted about Age!!
-# # Lets take utmost care, no matter what age group we are in
-# 
+# # Conclusion Part 2 - Age did not significant contributor
 
 # In[ ]:
 
@@ -331,10 +314,10 @@ COVID19_patients_infectedby_P6[["Patient number","Age Bracket","Gender","Notes",
 
 
 # # Conclusion Part 3 - Importance of isolation
-# # Please please understand importance of isolation and do not create new clusters
-# 
 
-# In[ ]:
+
+
+
 
 
 
